@@ -1,7 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Ordering.Domain.Models;
+﻿using Ordering.Domain.Models;
 using System.Reflection;
-using System.Runtime.CompilerServices;
 
 namespace Ordering.Infrastructure.Data;
 public class ApplicationDbContext : DbContext
