@@ -8,3 +8,4 @@ global using Ordering.Domain.Models;
 global using Ordering.Domain.ValueObjects;
 global using Ordering.Application.Exceptions;
 global using Microsoft.EntityFrameworkCore;
+global using Ordering.Application.Extensions;
