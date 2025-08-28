@@ -7,3 +7,4 @@ global using Ordering.Application.Data;
 global using Ordering.Domain.Models;
 global using Ordering.Domain.ValueObjects;
 global using Ordering.Application.Exceptions;
+global using Microsoft.EntityFrameworkCore;
