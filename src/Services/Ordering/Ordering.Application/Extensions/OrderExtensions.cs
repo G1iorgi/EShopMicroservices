@@ -29,7 +29,7 @@ public static class OrderExtensions
                     order.Payment.Expiration,
                     order.Payment.CVV,
                     order.Payment.PaymentMethod),
-                OrderStatus: order.Status,
+                Status: order.Status,
                 OrderItems: order.OrderItems.Select(oi => new OrderItemDto(
                     oi.OrderId.Value,
                     oi.ProductId.Value,
