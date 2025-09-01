@@ -8,3 +8,4 @@ global using Marten;
 global using MediatR;
 global using Basket.API.Basket.Exceptions;
 global using Basket.API.Data;
+global using Basket.API.Dtos;
