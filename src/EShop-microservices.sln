@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{1196EAB2-705F-4690-882A-D2FBE804C728}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks.Messaging", "BuildingBlocks\BuildingBlocks.Messaging\BuildingBlocks.Messaging.csproj", "{7BDDC02B-085C-461D-A901-3FF7B88B88D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{1196EAB2-705F-4690-882A-D2FBE804C728}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1196EAB2-705F-4690-882A-D2FBE804C728}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1196EAB2-705F-4690-882A-D2FBE804C728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BDDC02B-085C-461D-A901-3FF7B88B88D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BDDC02B-085C-461D-A901-3FF7B88B88D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BDDC02B-085C-461D-A901-3FF7B88B88D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BDDC02B-085C-461D-A901-3FF7B88B88D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,5 +98,6 @@ Global
 		{87D9E779-37EF-4E54-82A8-2DDAFF0981C2} = {9EA9DE70-E284-4354-B026-A8C76546E7B7}
 		{7A8B1259-1B05-4D77-80E0-61D2C0251FF6} = {9EA9DE70-E284-4354-B026-A8C76546E7B7}
 		{1196EAB2-705F-4690-882A-D2FBE804C728} = {C1515808-0630-4B68-BDF0-85A1AB419838}
+		{7BDDC02B-085C-461D-A901-3FF7B88B88D2} = {C1515808-0630-4B68-BDF0-85A1AB419838}
 	EndGlobalSection
 EndGlobal
