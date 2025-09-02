@@ -1,7 +1,7 @@
 ﻿namespace BuildingBlocks.Messaging.Events;
 public record BasketCheckoutEvent : IntegrationEvent
 {
-    public string UseName { get; set; } = default!;
+    public string UserName { get; set; } = default!;
     public Guid CustomerId { get; set; } = default!;
     public decimal TotalPrice { get; set; } = default!;
 
