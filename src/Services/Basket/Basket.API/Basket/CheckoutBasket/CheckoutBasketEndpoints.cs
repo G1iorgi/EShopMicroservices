@@ -10,7 +10,7 @@ public class CheckoutBasketEndpoints : ICarterModule
     {
         app.MapPost("/basket/checkout", async (CheckoutBasketRequest request, ISender sender) =>
         {
-            var command = request.Adapt<CheckoutBaskerCommand>();
+            var command = request.Adapt<CheckoutBasketCommand>();
 
             var result = await sender.Send(command);
 
