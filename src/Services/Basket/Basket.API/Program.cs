@@ -4,6 +4,7 @@ using BuildingBlocks.Messaging.MassTransit;
 using Discount.Grpc;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
