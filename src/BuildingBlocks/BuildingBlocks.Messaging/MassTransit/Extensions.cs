@@ -14,16 +14,18 @@ public static class Extensions
         services.AddMassTransit(config =>
         {
             config.SetKebabCaseEndpointNameFormatter();
-
+            
             if (assembly != null)
                 config.AddConsumers(assembly);
+
             config.UsingRabbitMq((context, configurator) =>
             {
-                configurator.Host(new Uri(configuration["MessageBroker:Host"]!), host =>
+                configurator.Host(new Uri(configuration["MessageBroker:Host"]!), h =>
                 {
-                    host.Username(configuration["MessageBroker:Username"]!);
-                    host.Password(configuration["MessageBroker:Password"]!);
+                    h.Username(configuration["MessageBroker:UserName"]);
+                    h.Password(configuration["MessageBroker:Password"]);
                 });
+
                 configurator.ConfigureEndpoints(context);
             });
         });
